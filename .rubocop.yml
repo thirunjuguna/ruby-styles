@@ -1,0 +1,13 @@
+inherit_from:
+  - rubocop.yml
+  - rubocop-strict.yml
+
+AllCops:
+  SuggestExtensions: false
+  Exclude:
+    - _site/**/*
+    - node_modules/**/*
+    - vendor/**/*
+
+RSpec/DescribeClass:
+  Enabled: false
